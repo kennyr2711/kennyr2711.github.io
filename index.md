@@ -10,7 +10,22 @@ This bar chart shows the top 10 most common license types issued. The x-axis rep
 
 <div id="chart1" style="width: 100%; height: 500px;"></div>
 <script type="text/javascript">
-  vegaEmbed('#chart1', 'chart1.json').catch(console.error);
+  vegaEmbed('#chart1', {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart",
+    "data": {
+      "values": [
+        {"category": "A", "value": 28},
+        {"category": "B", "value": 55},
+        {"category": "C", "value": 43}
+      ]
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "category", "type": "nominal"},
+      "y": {"field": "value", "type": "quantitative"}
+    }
+  }).catch(console.error);
 </script>
 
 ---
