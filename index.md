@@ -10,7 +10,7 @@ This bar chart shows the top 10 most common license types issued. The x-axis rep
 
 <div id="chart1" style="width: 100%; height: 500px;"></div>
 <script type="text/javascript">
-  vegaEmbed('#chart1', 'chart1.json').catch(console.error);
+  vegaEmbed('#chart1', 'https://kennyr2711.github.io/chart1.json').catch(console.error);
 </script>
 
 ---
@@ -20,10 +20,15 @@ This line chart shows the number of licenses issued over time. The x-axis repres
 
 <div id="chart2" style="width: 100%; height: 500px;"></div>
 <script type="text/javascript">
-  vegaEmbed('#chart2', 'chart2.json').catch(console.error);
+  vegaEmbed('#chart2', 'https://kennyr2711.github.io/chart2.json').catch(console.error);
 </script>
 
 ---
+## Interactivity
+For the interactivity in the second visualization, I chose to use a built-in (in the graph) dropdown menu that allows the user to select for a specific license type. This helps the graph become more clear by allowing the user to click on a specific license type they are interested in the graph, and it will filter out to only that specific license type with a more detailed view of the distributon of the count throughout the years. Additionally, users can also hover over specific points in the graph to see the specific date and count of the license at that point.
+
+---
+
 
 ## Links
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv)
