@@ -10,7 +10,7 @@ This bar chart shows the top 10 most common license types issued. The x-axis rep
 
 <div id="chart1" style="width: 100%; height: 500px;"></div>
 <script type="text/javascript">
-  vegaEmbed('#chart1', 'chart1.json').catch(console.error);
+  vegaEmbed('#chart1', 'https://kennyr2711.github.io/chart1.json').catch(console.error);
 </script>
 
 ---
@@ -20,7 +20,7 @@ This line chart shows the number of licenses issued over time. The x-axis repres
 
 <div id="chart2" style="width: 100%; height: 500px;"></div>
 <script type="text/javascript">
-  vegaEmbed('#chart2', 'chart2.json').catch(console.error);
+  vegaEmbed('#chart2', 'https://kennyr2711.github.io/chart2.json').catch(console.error);
 </script>
 
 ---
