@@ -32,4 +32,4 @@ For the interactivity in the second visualization, I chose to use a built-in (in
 
 ## Links
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv)
-- [The Analysis](https://github.com/kennyr2711/licenses-visualization/blob/main/licenses_visualizations.ipynb)
+- [The Analysis](https://github.com/kennyr2711/kennyr2711.github.io/blob/main/Workbook.ipynb)
