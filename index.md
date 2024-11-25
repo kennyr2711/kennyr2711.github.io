@@ -25,12 +25,7 @@ This line chart shows the number of licenses issued over time. The x-axis repres
 
 ---
 ## Interactivity
-
-
-
-
-
-
+For the interactivity in the second visualization, I chose to use a built-in (in the graph) dropdown menu that allows the user to select for a specific license type. This helps the graph become more clear by allowing the user to click on a specific license type they are interested in the graph, and it will filter out to only that specific license type with a more detailed view of the distributon of the count throughout the years. Additionally, users can also hover over specific points in the graph to see the specific date and count of the license at that point.
 
 ---
 
