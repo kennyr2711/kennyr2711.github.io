@@ -24,6 +24,16 @@ This line chart shows the number of licenses issued over time. The x-axis repres
 </script>
 
 ---
+## Interactivity
+
+
+
+
+
+
+
+---
+
 
 ## Links
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv)
