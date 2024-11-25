@@ -1,5 +1,5 @@
 
-## title: License Types Visualization
+## License Types Visualization
 
 
 ## Visualization 1: Top License Types
